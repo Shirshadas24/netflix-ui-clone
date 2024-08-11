@@ -233,6 +233,10 @@ footer .qs{
 @media screen and (max-width: 1300px) {
     .top{
         max-width: 90vw;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        flex-direction: column;
     }
     .first{
         flex-wrap: wrap;
